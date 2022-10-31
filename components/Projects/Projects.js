@@ -12,11 +12,11 @@ export default function Projects() {
         {projects.map((project, i) => (
           <div
             key={i}
-            className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen"
+            className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center pb-0 h-screen"
           >
             <img src="/hej.jpg" height="200px" width="200px" />
             <div className="space-y-10 px-0 md:px-10 max-w-6xl">
-              <h4 className="text-3xl font-semibold text-center">
+              <h4 className="text-2xl font-semibold text-center">
                 <span className="underline decoration-[#F7AB0A]/50">
                   Case study {i + 1} of {projects.length}: UPS CLONE
                 </span>
@@ -26,7 +26,7 @@ export default function Projects() {
                 sadfo iasdasdasldhu aausduasd asd asd asd asd asd qw eqw
                 dasiodnajsfgasd asiofughsfio cuagduasf v iasdgaid
               </p>
-              <div>
+              <div className="flex flex-col items-center md:items-start">
                 <h3 className="pb-3 text-2xl">Byggt med</h3>
                 <div className="flex space-x-3">
                   <span>
