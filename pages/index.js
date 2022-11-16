@@ -9,7 +9,7 @@ import Skills from "../components/Skills/Skills";
 
 export default function Home() {
   return (
-    <div className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-scroll z-0 scroll-smooth overflow-x-hidden scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80">
+    <div className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-scroll z-0 scroll-smooth overflow-x-hidden scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#50C878]/80">
       <Head>
         <title>Markus Wiland Portfolio</title>
       </Head>

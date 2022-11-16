@@ -1,6 +1,7 @@
 import React from "react";
 import ReactTooltip from "react-tooltip";
 import { motion } from "framer-motion";
+import Image from "next/image";
 export default function About() {
   console.log(new Date(1666273387783));
   return (
@@ -19,7 +20,13 @@ export default function About() {
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: true }}
       >
-        img
+        <Image
+          src="/markuswiland.jpg"
+          width={250}
+          height={250}
+          className="rounded-full border-4 border-gray-500"
+          objectFit="cover"
+        />
       </motion.div>
       <motion.div
         initial={{ x: 200, opacity: 0 }}

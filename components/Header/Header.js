@@ -59,7 +59,7 @@ export default function Header() {
           bgColor="transparent"
         />
         <Link href="#contact">
-          <p className="uppercase hidden md:inline-flex text-sm text-gray-400">
+          <p className="uppercase hidden md:inline-flex text-sm text-gray-400 hover:text-green-300">
             Get in touch
           </p>
         </Link>

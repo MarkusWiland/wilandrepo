@@ -32,12 +32,12 @@ export default function Contact() {
       >
         <h4 className="text-4xl font-semibold text-center">
           Jag har det du är ute efter.{" "}
-          <span className="decoration-[#F7AB0A]/50 underline">
+          <span className="decoration-[#50C878]/50 underline">
             Låt oss diskutera.
           </span>
         </h4>
         <div className="flex items-center space-x-5 justify-center">
-          <EnvelopeIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
+          <EnvelopeIcon className="text-[#50C878] h-7 w-7 animate-pulse" />
           <p className="text-2xl">markus.wiland@outlook.com</p>
         </div>
         <form
@@ -71,7 +71,7 @@ export default function Contact() {
           />
           <button
             type="submit"
-            className="bg-[#F7AB0A] py-5 px-10 rounded-md text-black font-bold text-lg"
+            className="bg-[#50C878] py-5 px-10 rounded-md text-black font-bold text-lg"
           >
             Skicka
           </button>
